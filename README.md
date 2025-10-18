@@ -21,4 +21,6 @@ During the development of this project, AI support was used to help solve comple
 
 This project was made for my personal learning process.
 
+- https://kadirmutluyt.github.io/calculator-html-css/
+
 
