@@ -11,7 +11,7 @@ During the development of this project, AI support was used to help solve comple
 
 ## Purpose
 🔹 Learn DOM interaction with JavaScript
-🔹 Create and style a simple user interface  
+🔹 Create and style a simple user interface
 🔹 Take one more step in my web development journey
 
 ## Screenshots
