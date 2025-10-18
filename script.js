@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const screen = document.getElementById('first-screen'); // GÜNCELLENDİ
+    const screen = document.getElementById('first-screen');
     const historyScreen = document.getElementById('history-screen');
     const buttons = document.querySelectorAll('.btn');
 
@@ -127,7 +127,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         currentOperand = result.toString();
-        justCalculated = false; 
+        
+        // --- GÜNCELLENDİ ---
+        // Yüzde ve karekök de bir "hesaplama" olduğu için
+        // justCalculated = true olmalı.
+        justCalculated = true; 
+        // ---------------------
+
         updateDisplay();
         
         updateHistoryDisplay(operationDesc);
