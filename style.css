@@ -26,20 +26,48 @@ h3 {
   overflow: hidden;
 }
 
-.container .box1 {
+
+.container .calculator-screen {
   display: flex;
   background-color: #262626;
   align-items: center;
   justify-content: center;
 }
 
-#screen {
+.screen {
   width: 350px;
-  height: 80px;
+  height: 100px; 
   background-color: rgba(67, 212, 188, 0.752);
   outline: none;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+
+  padding: 10px 15px; 
+  box-sizing: border-box;
 }
 
+#history-screen {
+  height: 25px; 
+  color: #444; 
+  font-size: 1.1rem; 
+  font-weight: normal;
+  text-align: right; 
+  margin: 0;
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#first-screen {
+  height: 50px; 
+  font-size: 2.5rem; 
+  color: #262626; 
+  text-align: right;
+  margin: 0;
+}
 
 .container .box2 {
   display: grid;
